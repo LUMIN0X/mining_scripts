@@ -14,4 +14,4 @@ yes | cp -f etc.conf eth-proxy.conf
 
 screen -S etc-miner -d -m zsh -lc 'ethminer -R ~/.etchash -F localhost:8080 -G --farm-recheck 200 --cl-local-work 256 --cl-global-work 16384'
 
-~/apps/adl3/atitweak -f 100
+~/.local/bin/atitweak -f 100

@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+screen -S temps -d -m zsh -lc 'while true; do date; amdconfig --odgt --adapter=all | grep Temperature; sleep 10; done'

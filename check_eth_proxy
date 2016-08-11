@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+if [[ `curl -I -s "http://127.0.0.1:8080/" -o /dev/null -w "%{http_code}\n"` -ne 200 ]]
+
+then
+
+    pkill -f 'eth-proxy.py'
+
+    cd ~/miners/eth-proxy
+
+    screen -S eth-proxy -d -m zsh -lc 'python eth-proxy.py'
+
+fi

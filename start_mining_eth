@@ -1,0 +1,15 @@
+#!/usr/bin/env zsh
+
+pkill ethminer
+
+sleep 3
+
+cd ~/miners/eth-proxy
+
+yes | cp -f eth.conf eth-proxy.conf
+
+~/scripts/start_etceth_proxy
+
+screen -S eth-miner -d -m zsh -lc 'ethminer -R ~/.ethhash -F localhost:8080 -G --farm-recheck 200 --cl-local-work 256 --cl-global-work 16384'
+
+~/apps/adl3/atitweak -f 100

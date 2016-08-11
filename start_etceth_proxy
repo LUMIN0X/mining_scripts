@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+pkill -f 'eth-proxy.py'
+
+cd ~/miners/eth-proxy
+
+screen -S eth-proxy -d -m zsh -lc 'python eth-proxy.py'

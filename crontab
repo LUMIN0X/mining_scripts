@@ -1,0 +1,4 @@
+@reboot /home/hoobah/scripts/monitor_temps
+@reboot /home/hoobah/scripts/check_ssh_tunnel
+* * * * * /home/hoobah/scripts/check_eth_proxy
+* * * * * /home/hoobah/scripts/check_ssh_tunnel

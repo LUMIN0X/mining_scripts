@@ -4,3 +4,5 @@
 pkill ethminer
 
 screen -S siacoin -d -m zsh -lc 'gominer -H siamining.com:9980 -Q "address=bb357751e7024d45bbc5e307d89c2f4ac6e37b0a2fbdb7eface86d2d7a545c942addddaeb1cc&worker=shared"'
+
+~/.local/bin/atitweak -f 100

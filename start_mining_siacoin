@@ -3,4 +3,4 @@
 pkill -9 ethminer
 pkill -9 gominer
 
-screen -S siacoin -d -m zsh -lc 'gominer -H siamining.com:9980 -Q "address=bb357751e7024d45bbc5e307d89c2f4ac6e37b0a2fbdb7eface86d2d7a545c942addddaeb1cc&worker=shared"'
+screen -S siacoin -d -m zsh -lc 'gominer -H siamining.com:9980 -Q "address=6417bfb62c75771bfce9786851c2840cfed2d2ce9239a478046d4bcc249d430ac8344b080640&worker=shared"'

@@ -5,7 +5,7 @@ pkill -9 gominer
 
 cd ~/miners/eth-proxy
 
-yes | cp -f etc.conf eth-proxy.conf
+yes | cp -f ~/scripts/etc.conf ~/miners/eth-proxy/eth-proxy.conf
 
 ~/scripts/start_etceth_proxy
 

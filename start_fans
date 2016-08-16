@@ -1,3 +1,5 @@
 #!/usr/bin/env zsh
 
+sleep 15
+
 ~/.local/bin/atitweak -f 100

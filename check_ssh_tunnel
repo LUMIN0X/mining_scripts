@@ -6,6 +6,6 @@ then
 
     echo 'starting new tunnel'
 
-    screen -S tunnel -d -m zsh -lc 'ssh miko@miko.homelinux.com -p 2222 -R 4444:localhost:22'
+    autossh -M 20000 -f -N miko@miko.homelinux.com -R 4444:localhost:22 -C -p 2222
 
 fi

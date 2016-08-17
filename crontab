@@ -1,5 +1,5 @@
-@reboot /home/hoobah/scripts/monitor_temps
-@reboot /home/hoobah/scripts/check_ssh_tunnel
-@reboot /home/hoobah/scripts/start_fans
-* * * * * /home/hoobah/scripts/check_eth_proxy
-* * * * * /home/hoobah/scripts/check_ssh_tunnel
+@reboot /home/jsn/scripts/monitor_temps
+@reboot /home/jsn/scripts/check_ssh_tunnel
+@reboot /home/jsn/scripts/start_fans
+* * * * * /home/jsn/scripts/check_eth_proxy
+* * * * * /home/jsn/scripts/check_ssh_tunnel

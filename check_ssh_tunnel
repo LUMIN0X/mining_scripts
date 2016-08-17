@@ -6,6 +6,6 @@ then
 
     echo 'starting new tunnel'
 
-    autossh -M 20000 -f -N miko@miko.homelinux.com -R 4444:localhost:22 -C -p 2222
+    autossh -M 20000 -f -N jsn@jsn.homeunix.com -R 4444:localhost:22 -C -p 2222
 
 fi
